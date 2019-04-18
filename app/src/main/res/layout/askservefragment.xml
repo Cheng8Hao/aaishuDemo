@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/gaoxinLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_margin_left"
+            android:layout_marginTop="@dimen/layout_margin_top"
+            android:layout_marginRight="@dimen/layout_margin_right"
+            android:background="@drawable/mine_bg_grey"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/gaoxin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/layout_margin_left"
+                android:layout_marginTop="@dimen/layout_margin_top"
+                android:layout_marginRight="@dimen/layout_margin_right"
+                android:layout_marginBottom="@dimen/layout_margin_bottom">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/medium_image_size_width"
+                        android:layout_height="@dimen/medium_image_size_height"
+                        android:layout_gravity="center"
+                        android:src="@drawable/wode_tianxie" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="高新技术企业认定"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/medium_text_size" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/servecepipeiImageView1"
+                    android:layout_width="@dimen/medium_image_size_width"
+                    android:layout_height="@dimen/medium_image_size_height"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/home_icon_more" />
+            </RelativeLayout>
+            <!--分割线-->
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/black" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/layout_margin_left"
+                android:layout_marginTop="@dimen/layout_margin_top"
+                android:layout_marginRight="@dimen/layout_margin_right"
+                android:layout_marginBottom="@dimen/layout_margin_bottom"
+                android:text="在国家重点支持的高新技术领域内，持续进行研究开发与技术成果转化，形成企业核心自主知识产权，并以此为基础开展生产经营活动" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/ruanjianLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_margin_left"
+            android:layout_marginTop="@dimen/layout_margin_top"
+            android:layout_marginRight="@dimen/layout_margin_right"
+            android:background="@drawable/mine_bg_grey"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/ruanzhu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/layout_margin_left"
+                android:layout_marginTop="@dimen/layout_margin_top"
+                android:layout_marginRight="@dimen/layout_margin_right"
+                android:layout_marginBottom="@dimen/layout_margin_bottom">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/medium_image_size_width"
+                        android:layout_height="@dimen/medium_image_size_height"
+                        android:layout_gravity="center"
+                        android:src="@drawable/wode_tianxie" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="软件著作权"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/medium_text_size" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/servecepipeiImageView2"
+                    android:layout_width="@dimen/medium_image_size_width"
+                    android:layout_height="@dimen/medium_image_size_height"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/home_icon_more" />
+            </RelativeLayout>
+            <!--分割线-->
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/black" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/layout_margin_left"
+                android:layout_marginTop="@dimen/layout_margin_top"
+                android:layout_marginRight="@dimen/layout_margin_right"
+                android:layout_marginBottom="@dimen/layout_margin_bottom"
+                android:text="包括:应用软件、小程序、网站、手机APP、游戏(游戏作品中游戏资源包括图像、声音、动画等部分，游戏引擎是程序代码，可以申请软件著作权登记，而游戏中动漫、视频、图片等属于其他作品，不能进行软件著作权登记)。" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/zhuanliLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_margin_left"
+            android:layout_marginTop="@dimen/layout_margin_top"
+            android:layout_marginRight="@dimen/layout_margin_right"
+            android:background="@drawable/mine_bg_grey"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/zhuanli"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/layout_margin_left"
+                android:layout_marginTop="@dimen/layout_margin_top"
+                android:layout_marginRight="@dimen/layout_margin_right"
+                android:layout_marginBottom="@dimen/layout_margin_bottom">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/medium_image_size_width"
+                        android:layout_height="@dimen/medium_image_size_height"
+                        android:layout_gravity="center"
+                        android:src="@drawable/wode_tianxie" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="专利申请"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/medium_text_size" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/servecepipeiImageView3"
+                    android:layout_width="@dimen/medium_image_size_width"
+                    android:layout_height="@dimen/medium_image_size_height"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/home_icon_more" />
+            </RelativeLayout>
+            <!--分割线-->
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/black" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/layout_margin_left"
+                android:layout_marginTop="@dimen/layout_margin_top"
+                android:layout_marginRight="@dimen/layout_margin_right"
+                android:layout_marginBottom="@dimen/layout_margin_bottom"
+                android:text="包括发明专利、实用新型专利、发明实用双报" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/shangbiaoLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_margin_left"
+            android:layout_marginTop="@dimen/layout_margin_top"
+            android:layout_marginRight="@dimen/layout_margin_right"
+            android:layout_marginBottom="@dimen/layout_margin_bottom"
+            android:background="@drawable/mine_bg_grey"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/shangbiao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/layout_margin_left"
+                android:layout_marginTop="@dimen/layout_margin_top"
+                android:layout_marginRight="@dimen/layout_margin_right"
+                android:layout_marginBottom="@dimen/layout_margin_bottom">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/medium_image_size_width"
+                        android:layout_height="@dimen/medium_image_size_height"
+                        android:layout_gravity="center"
+                        android:src="@drawable/wode_tianxie" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="商标注册"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/medium_text_size" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/servecepipeiImageView4"
+                    android:layout_width="@dimen/medium_image_size_width"
+                    android:layout_height="@dimen/medium_image_size_height"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/home_icon_more" />
+            </RelativeLayout>
+            <!--分割线-->
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/black" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/layout_margin_left"
+                android:layout_marginTop="@dimen/layout_margin_top"
+                android:layout_marginRight="@dimen/layout_margin_right"
+                android:layout_marginBottom="@dimen/layout_margin_bottom"
+                android:text="注册商标是产品、服务印刷包装、广告宣传、进驻商场、端上平台、开通微信公众等活动中的必备条件，是产品/服务上市销售的第一步。" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+

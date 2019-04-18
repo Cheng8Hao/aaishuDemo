@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--color start-->
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="yellow">#EEFF00</color>
+    <color name="blue">#3F51B5</color>
+    <color name="lightblue">#03A9F4</color>
+    <color name="orange">#FFC107</color>
+    <color name="red">#ffff0000</color>
+    <color name="pink">#E755BE</color>
+    <color name="gray">#D1C9C9</color>
+    <color name="lightgray">#ffcccccc</color>
+    <color name="white">#ffffff</color>
+    <color name="purple">#800080</color>
+    <color name="black">#000000</color>
+
+    <!--drawable start-->
+    <drawable name="drawablePrimary">#008577</drawable>
+    <drawable name="drawablePrimaryDark">#00574B</drawable>
+    <drawable name="drawableAccent">#D81B60</drawable>
+
+    <drawable name="yellow">#EEFF00</drawable>
+    <drawable name="blue">#3F51B5</drawable>
+    <drawable name="lightblue">#03A9F4</drawable>
+    <drawable name="orange">#FFC107</drawable>
+    <drawable name="red">#ffff0000</drawable>
+    <drawable name="pink">#E91E63</drawable>
+    <drawable name="gray">#D1C9C9</drawable>
+    <drawable name="lightgray">#ffcccccc</drawable>
+    <drawable name="white">#ffffff</drawable>
+    <drawable name="purple">#800080</drawable>
+    <drawable name="black">#000000</drawable>
+
+
+</resources>

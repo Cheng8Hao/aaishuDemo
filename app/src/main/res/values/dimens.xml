@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--title_height-->
+    <dimen name="large_title_height">40dp</dimen>
+    <dimen name="medium_title_height">30dp</dimen>
+    <dimen name="small_title_height">2dp</dimen>
+
+    <!--layout_margin-->
+    <dimen name="layout_margin_left">10dp</dimen>
+    <dimen name="layout_margin_right">10dp</dimen>
+    <dimen name="layout_margin_top">5dp</dimen>
+    <dimen name="layout_margin_bottom">5dp</dimen>
+
+    <!--textsize-->
+    <dimen name="large_text_size">25sp</dimen>
+    <dimen name="medium_text_size">16sp</dimen>
+    <dimen name="small_text_size">13sp</dimen>
+
+    <!--image_size-->
+    <dimen name="large_image_size_width">30dp</dimen>
+    <dimen name="large_image_size_height">30dp</dimen>
+    <dimen name="medium_image_size_width">20dp</dimen>
+    <dimen name="medium_image_size_height">20dp</dimen>
+    <dimen name="small_image_size_height">10dp</dimen>
+    <dimen name="small_image_size_width">10dp</dimen>
+
+    <!--GridView-->
+    <dimen name="GridView_horizontalSpacing">10dp</dimen>
+    <dimen name="GridView_verticalSpacing">10dp</dimen>
+
+
+    <!--&lt;!&ndash; 标题栏 &ndash;&gt;
+    <dimen name="title_bar_height">44.0dip</dimen>
+    <dimen name="head_size">28.0dip</dimen>
+    &lt;!&ndash; 导航栏 &ndash;&gt;
+    <dimen name="common_title_bar_height">48dp</dimen>
+    <dimen name="common_title_bar_marging">10dp</dimen>
+    <dimen name="common_text_size">20sp</dimen>
+    &lt;!&ndash; 主页 栏目选择 &ndash;&gt;
+    <dimen name="cloum_height">38.0dip</dimen>
+    <dimen name="cloum_shade_height">40.0dip</dimen>
+    <dimen name="cloum_shade_width">10.0dip</dimen>
+    <dimen name="cloum_more_size">40.0dip</dimen>
+    <dimen name="list_item_horizontal_padding">15.0dip</dimen>
+    <dimen name="left_image_width">90.0dip</dimen>
+    <dimen name="left_image_height">70.0dip</dimen>
+    <dimen name="alt_mark_size">15.0dip</dimen>
+    <dimen name="item_image_width">86.0dip</dimen>
+    <dimen name="item_image_height">80.0dip</dimen>
+    <dimen name="adv_dot_width">7dp</dimen>
+
+    &lt;!&ndash; 个人设置 &ndash;&gt;
+    <dimen name="setting_icon_height">68dp</dimen>
+    <dimen name="me_text_size">16sp</dimen>
+    <dimen name="me_address_text_size">13sp</dimen>
+    <dimen name="rl_icon_back_margin_top_bottom">10dp</dimen>
+    <dimen name="exit_name_pwd_layout_margin">20dp</dimen>
+    <dimen name="me_set_item_drawable_padding">10dp</dimen>
+    <dimen name="me_item_height">46dp</dimen>
+    <dimen name="me_set_item_padding_left_right">12dp</dimen>
+    <dimen name="me_content_text_size">14sp</dimen>
+    <dimen name="line_height">1px</dimen>
+    <dimen name="line_width">1px</dimen>
+    <dimen name="base_btn_height">45dp</dimen>
+    &lt;!&ndash; 升级改版 &ndash;&gt;
+    <dimen name="update_dialog_height">200dip</dimen>
+    <dimen name="update_dialog_width">260dip</dimen>
+    <dimen name="update_dialog_scroll_height">150dip</dimen>
+    <dimen name="update_dialog_right_width">146dip</dimen>
+
+    &lt;!&ndash; 主界面底部 &ndash;&gt;
+    <dimen name="main_activity_right_menu_text_size">15dip</dimen>
+    <dimen name="main_activity_bottom_menu_text_size">12dip</dimen>
+    <dimen name="bg_option_corner_radius">4.0dip</dimen>
+    <dimen name="bg_option_corner_radius_none">0.0dip</dimen>
+    <dimen name="bg_option_padding_left">0.0dip</dimen>
+    <dimen name="bg_option_padding_right">0.0dip</dimen>
+    <dimen name="bg_option_padding_top">0.0dip</dimen>
+    <dimen name="bg_option_padding_bottom">0.0dip</dimen>
+    <dimen name="bg_option_border_width">0.5dip</dimen>
+    &lt;!&ndash; SlipSwitchView &ndash;&gt;
+    <dimen name="fix_switchView_height">2dp</dimen>
+    <dimen name="mm_up_arrow_margin">-16dp</dimen>
+    &lt;!&ndash;个人中心头部&ndash;&gt;
+    <dimen name="personal_top">200dp</dimen>
+
+
+    &lt;!&ndash; CardView边距 适配 &ndash;&gt;
+    <dimen name="card_margin_horizontal">0dp</dimen>
+    <dimen name="card_margin_vertical">0dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="home_tab_height">49dp</dimen>
+    <dimen name="list_divider_height">1px</dimen>
+    <dimen name="list_divider_height_negative">-1px</dimen>-->
+
+
+</resources>

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--企业立项查询-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/layout_margin_left"
+        android:layout_marginTop="@dimen/layout_margin_top"
+        android:layout_marginRight="@dimen/layout_margin_right"
+        android:layout_marginBottom="@dimen/layout_margin_bottom"
+        android:background="@drawable/mine_bg_grey"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:layout_marginEnd="70dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/apple_pic" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="企业立项查询"
+                    android:textSize="@dimen/large_text_size" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="企业申报项目一搜便知"
+                    android:textSize="@dimen/medium_text_size" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_margin_left"
+            android:layout_marginTop="@dimen/layout_margin_top"
+            android:layout_marginRight="@dimen/layout_margin_right"
+            android:layout_marginBottom="@dimen/layout_margin_bottom"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/search_input"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="1"
+                android:background="@drawable/serach_bg">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/serach_bg"
+                    android:gravity="left|center_vertical"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_marginLeft="10dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/search_btn"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginRight="3dp"
+                            android:background="@drawable/ic_search_normal"
+                            android:scaleType="center" />
+
+                        <TextView
+                            android:id="@+id/search_info"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:background="@null"
+                            android:drawablePadding="8dp"
+                            android:hint="请输入关键字"
+                            android:singleLine="true"
+                            android:textSize="@dimen/medium_text_size" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_margin_left"
+            android:layout_marginTop="@dimen/layout_margin_top"
+            android:layout_marginRight="@dimen/layout_margin_right"
+            android:layout_marginBottom="@dimen/layout_margin_bottom"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="lable22222"
+                android:textSize="@dimen/medium_text_size" />
+        </LinearLayout>
+    </LinearLayout>
+    <!--热门项目-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/layout_margin_left"
+        android:layout_marginTop="@dimen/layout_margin_top"
+        android:layout_marginRight="@dimen/layout_margin_right"
+        android:layout_marginBottom="@dimen/layout_margin_bottom"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/medium_image_size_width"
+                android:layout_height="@dimen/medium_image_size_height"
+                android:layout_gravity="center"
+                android:src="@drawable/wode_tianxie" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="热门项目"
+                android:textColor="@color/black"
+                android:textSize="@dimen/medium_text_size" />
+        </LinearLayout>
+
+        <!--gridview-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.example.testdemo.MeasureGridView
+                android:id="@+id/hotProjectgridview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:columnWidth="90dp"
+                android:gravity="center"
+                android:horizontalSpacing="@dimen/GridView_horizontalSpacing"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="@dimen/GridView_verticalSpacing"></com.example.testdemo.MeasureGridView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!--公式公告-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/layout_margin_left"
+        android:layout_marginTop="@dimen/layout_margin_top"
+        android:layout_marginRight="@dimen/layout_margin_right"
+        android:layout_marginBottom="@dimen/layout_margin_bottom"
+        android:background="@drawable/mine_bg_grey"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="公示公告"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/medium_text_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="lable1"
+                android:textSize="@dimen/medium_text_size" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="lable1"
+                android:textSize="@dimen/medium_text_size" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="lable1"
+                android:textSize="@dimen/medium_text_size" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="lable1"
+                android:textSize="@dimen/medium_text_size" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>
