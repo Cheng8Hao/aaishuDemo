@@ -44,6 +44,7 @@ public class AskServeFragment extends Fragment implements View.OnClickListener {
 
         shangbiaoLinearLayout = (LinearLayout) rootView.findViewById(R.id.shangbiaoLinearLayout);
         shangbiaoLinearLayout.setOnClickListener(this);
+        //just for test 2019-04-18
 
     }
 
