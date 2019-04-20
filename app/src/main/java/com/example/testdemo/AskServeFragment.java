@@ -30,7 +30,6 @@ public class AskServeFragment extends Fragment implements View.OnClickListener {
         }
         return rootView;
         // return inflater.inflate(R.layout.askservefragment, container, false);
-        //asdkjadl
     }
 
     private void initView(View rootView) {
