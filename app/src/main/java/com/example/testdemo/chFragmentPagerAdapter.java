@@ -5,13 +5,13 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
 /**
- * Created by Carson_Ho on 16/7/22.
+ * Created by chenghao on 2019/04/20.
  */
-public class MyFragmentPagerAdapter extends FragmentPagerAdapter {
+public class chFragmentPagerAdapter extends FragmentPagerAdapter {
 
     private String[] mTitles = new String[]{"查政策", "查立项", "要服务"};
 
-    public MyFragmentPagerAdapter(FragmentManager fm) {
+    public chFragmentPagerAdapter(FragmentManager fm) {
         super(fm);
     }
 

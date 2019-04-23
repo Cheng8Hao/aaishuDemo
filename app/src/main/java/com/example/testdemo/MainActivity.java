@@ -13,63 +13,20 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private ViewPager mViewPager;
-    //    private ArrayList<View> aList;
-    private MyFragmentPagerAdapter myFragmentPagerAdapter;
+    private chFragmentPagerAdapter myFragmentPagerAdapter;
     private TabLayout mTabLayout;
-    TabLayout.Tab one;
-    TabLayout.Tab two;
-    TabLayout.Tab three;
+    private TabLayout.Tab one;
+    private TabLayout.Tab two;
+    private TabLayout.Tab three;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        /*vpager_one = (ViewPager) findViewById(R.id.vpager_one);
-        aList = new ArrayList<View>();
-        LayoutInflater li = getLayoutInflater();
-        aList.add(li.inflate(R.layout.view_one,null,false));
-        aList.add(li.inflate(R.layout.view_two,null,false));
-        mAdapter = new MyPagerAdapter(aList);
-        vpager_one.setAdapter(mAdapter);*/
-
-        /*mytab = (TabLayout) findViewById(R.id.mytab);
-        viewPager = (ViewPager) findViewById(R.id.viewPager);
-        LayoutInflater inflater = getLayoutInflater();
-        View view_one = inflater.inflate(R.layout.view_one, null);
-        View view_two = inflater.inflate(R.layout.view_two, null);
-        View view_three = inflater.inflate(R.layout.view_three, null);
-
-        aList = new ArrayList<View>();// 将要分页显示的View装入数组中
-        aList.add(view_one);
-        aList.add(view_two);
-        aList.add(view_three);
-
-        viewPager.setAdapter(new MyPagerAdapter(aList));
-        mytab.setupWithViewPager(viewPager);
-        mytab.getTabAt(0).setText(" 查政策 ");
-        mytab.getTabAt(1).setText("查立项");
-        mytab.getTabAt(2).setText("要服务");
-
-        mytab.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
-            @Override
-            public void onTabSelected(TabLayout.Tab tab) {
-
-            }
-
-            @Override
-            public void onTabUnselected(TabLayout.Tab tab) {
-
-            }
-
-            @Override
-            public void onTabReselected(TabLayout.Tab tab) {
-
-            }
-        });*/
-
+        //chenghao M for 首页 2019-04-20 begin
         //使用适配器将ViewPager与Fragment绑定在一起
         mViewPager = (ViewPager) findViewById(R.id.viewPager);
-        myFragmentPagerAdapter = new MyFragmentPagerAdapter(getSupportFragmentManager());
+        myFragmentPagerAdapter = new chFragmentPagerAdapter(getSupportFragmentManager());
         mViewPager.setAdapter(myFragmentPagerAdapter);
         //将TabLayout与ViewPager绑定在一起
         mTabLayout = (TabLayout) findViewById(R.id.mytab);
@@ -88,7 +45,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         ImageView xiangmoshenbaoImageView = (ImageView) findViewById(R.id.xiangmoshenbaoImageView);
         xiangmoshenbaoImageView.setOnClickListener(this);
-
+        //chenghao M for 首页 2019-04-20 begin
 
     }
 
